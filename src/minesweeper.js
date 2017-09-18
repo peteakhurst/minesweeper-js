@@ -4,18 +4,22 @@ const generatePlayerBoard = (numberOfRows, numberOfColumns) => {
 
   let board = [];
 
+  // Creates rows and pushes them into the empty board.
   for (let currentRow = 0; currentRow < numberOfRows; currentRow++) {
 
     let row = [];
 
+      // Creates columns and pushes them into the empty row.
       for (let currentColumn = 0; currentColumn < numberOfColumns; currentColumn++){
         row.push(' ');
       }
 
+      //
       board.push(row);
 
   }
 
+  
   return board;
 
 
