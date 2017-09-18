@@ -1,5 +1,4 @@
 // Function accepts the numberOfRows and numberOfColumns and returns a board with that many rows and columns.
-
 const generatePlayerBoard = (numberOfRows, numberOfColumns) => {
 
   let board = [];
@@ -14,12 +13,11 @@ const generatePlayerBoard = (numberOfRows, numberOfColumns) => {
         row.push(' ');
       }
 
-      //
+      // pushes the row to the board
       board.push(row);
 
   }
 
-  
   return board;
 
 
